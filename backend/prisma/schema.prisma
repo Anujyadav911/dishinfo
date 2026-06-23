@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Dish {
+  id          String   @id @default(uuid())
+  dishId      String   @unique
+  dishName    String
+  imageUrl    String
+  isPublished Boolean  @default(true)
+  updatedAt   DateTime @updatedAt
+}

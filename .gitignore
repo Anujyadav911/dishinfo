@@ -1,0 +1,16 @@
+node_modules/
+.env
+dist/
+build/
+.DS_Store
+coverage/
+*.log
+
+# Prisma DB
+backend/dev.db
+backend/dev.db-journal
+
+# React Vite build
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
