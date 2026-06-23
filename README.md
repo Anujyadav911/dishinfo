@@ -1,7 +1,7 @@
 # Menu Manager Dashboard
 
-![Jeera Rice Example](https://nosh-assignment.s3.ap-south-1.amazonaws.com/jeera-rice.jpg)
-
+![Dashboard View 1](./docs/screenshot1.png)
+![Dashboard View 2](./docs/screenshot2.png)
 A production-grade full-stack web application designed to manage dish publication statuses. It features an aesthetic, clean white UI inspired by top-tier tech companies and robust real-time updates.
 
 ## Features
